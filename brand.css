@@ -1,0 +1,62 @@
+/* Joyful, maximal Billi Bazaar refresh */
+:root{--ink:#1e160f;--rose:#e4987d;--orange:#e6954b;--cream:#f4deba;--paper:#fffaf3;--rust:#713622;--muted:#574638;--line:#d4a66e;--serif:'Baloo 2',sans-serif;--sans:'Nunito',Arial,sans-serif;--brand-display:'Bungee',sans-serif;--brand-script:'Berkshire Swash',cursive}
+body{font-family:var(--sans);font-weight:600;background-color:var(--paper);background-image:radial-gradient(rgba(230,149,75,.13) .8px,transparent .8px);background-size:18px 18px}
+.wordmark{font-size:27px;letter-spacing:.025em;color:var(--ink);text-shadow:2px 2px 0 var(--rose),4px 4px 0 var(--cream);transform:rotate(-3deg)}.wordmark span{font-size:1.02em;color:var(--rust);text-shadow:1px 2px 0 var(--orange)}.wordmark i{background:var(--rose);border:2px dashed var(--ink);box-shadow:2px 2px 0 var(--cream)}.wordmark small{font-weight:900;color:var(--ink);letter-spacing:.19em}
+.announcement{background:var(--rose);color:var(--ink);border-bottom:3px solid var(--ink);font-weight:900}.announcement-mark{color:var(--rust)}
+.site-header{background:var(--cream);border-bottom:2px dashed var(--ink)}
+.main-nav{font-weight:900}.main-nav a{padding:8px 11px;border-radius:999px;transition:transform .18s ease,background .18s ease,color .18s ease}.main-nav a:hover,.main-nav a:focus-visible{background:var(--orange);color:var(--ink);text-decoration:none;transform:rotate(-3deg)}
+.hero{background:linear-gradient(115deg,#f4deba 0 43%,#e4987d 43% 68%,#e6954b 68%);border-bottom:3px dashed var(--ink)}.hero h1,.section-heading h2,.seller-copy h2,.patchwork-copy h2,.newsletter h2{font-family:'Baloo 2',sans-serif;font-weight:800;letter-spacing:-.045em;line-height:.98}.hero h1 em,.section-heading h2 em,.patchwork-copy h2 em{color:var(--rust);text-shadow:2px 2px 0 var(--cream)}.hero .eyebrow,.section-heading .eyebrow,.seller-copy .eyebrow,.patchwork-copy .eyebrow{background:var(--paper);border:1px dashed var(--ink);border-radius:999px;padding:7px 12px;width:max-content;color:var(--ink);font-weight:900}.hero-image{border:8px solid var(--paper);box-shadow:8px 8px 0 var(--ink);transform:rotate(2deg)}.hero-sticker{background:var(--orange);border:2px dashed var(--ink);box-shadow:5px 5px 0 var(--rose);border-radius:43% 57% 52% 48%;font-weight:900}.hero-caption{background:var(--cream);padding:10px 14px;border:1px dashed var(--ink);border-radius:16px;transform:rotate(-3deg)}
+.trust-strip{background:var(--ink);color:var(--cream);border:0}.trust-mark{color:var(--orange)}
+.shop-section{background:var(--paper)}.category-card{border:3px solid var(--ink);border-radius:22px;overflow:hidden}.category-card:nth-child(4n+1){background:var(--rose)}.category-card:nth-child(4n+2){background:var(--orange)}.category-card:nth-child(4n+3){background:var(--cream)}.category-card:nth-child(4n){background:#c7d37b}.category-card span{background:var(--paper);border:2px solid var(--ink);border-radius:999px;padding:9px 15px;font-family:'Baloo 2',sans-serif;font-weight:800;box-shadow:3px 3px 0 var(--ink)}.category-card:hover{transform:translateY(-5px) rotate(-1deg);box-shadow:6px 7px 0 var(--ink)}
+.category-chip{border:1.5px dashed var(--ink);border-radius:999px;background:var(--cream);font-weight:800}.category-chip:nth-child(4n+2){background:#f0b5a2}.category-chip:nth-child(4n+3){background:#efb66f}.category-chip:hover,.category-chip[aria-pressed=true],.category-chip.active{background:var(--ink);color:var(--cream);transform:rotate(-2deg)}
+.product-card{padding:8px;border:2px solid var(--ink);border-radius:18px;background:var(--paper);box-shadow:3px 3px 0 var(--cream)}.product-card:nth-child(4n+2){background:#fff0e8}.product-card:nth-child(4n+3){background:#fff7df}.product-card:nth-child(4n){background:#f7e4dc}.product-image-wrap{border-radius:12px;overflow:hidden}.product-badge{background:var(--orange);border:1px solid var(--ink);border-radius:999px;font-weight:900}.vendor-name{color:var(--rust);font-weight:900}.product-name{font-family:'Baloo 2',sans-serif;font-size:18px;font-weight:800;line-height:1.12}.vendor-mark{background:var(--cream);border:1px dashed var(--ink);border-radius:999px;font-weight:800}
+.button,.button-dark,.button-primary,.checkout-route button[type=submit]{border-radius:999px;font-family:var(--sans);font-weight:900;letter-spacing:.01em}.button-dark,.button-primary,.checkout-route button[type=submit]{background:var(--ink);box-shadow:4px 4px 0 var(--orange)}.button-dark:hover,.button-primary:hover,.checkout-route button[type=submit]:hover{background:var(--rust);box-shadow:4px 4px 0 var(--rose);transform:translate(-1px,-2px) rotate(-1deg)}
+.seller-band{background:var(--orange)}.seller-copy{background:var(--rose)}.seller-stamp{background:var(--cream);border:2px dashed var(--ink);box-shadow:4px 4px 0 var(--ink);color:var(--ink)}
+.patchwork-feature{background:var(--cream);border-block:3px dashed var(--ink)}.patchwork-copy{background:var(--orange)}.patchwork-label{background:var(--rose);border:2px dashed var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.service-section{background:var(--paper)}.service-card{border:2px dashed var(--ink);border-radius:22px;background:var(--cream)}.service-card:nth-child(2){background:#f0b5a2}.service-card:nth-child(3){background:#efb66f}.service-icon{background:var(--paper);border:1px solid var(--ink);border-radius:14px}.service-card h3{font-family:'Baloo 2',sans-serif;font-weight:800}
+.newsletter{background:var(--rose);color:var(--ink);border-block:3px dashed var(--ink)}.newsletter h2{font-weight:900}.newsletter form .button{background:var(--ink);color:var(--cream);box-shadow:3px 3px 0 var(--orange)}
+footer{background:var(--ink);color:var(--cream);border-top:7px solid var(--orange)}footer .wordmark{color:var(--cream)}footer .wordmark span{color:var(--rose)}footer .wordmark small{color:var(--cream)}
+.checkout-route{background-color:var(--paper);background-image:radial-gradient(rgba(230,149,75,.12) .8px,transparent .8px);background-size:18px 18px}.checkout-route .checkout-header{background:var(--cream)}
+@media(max-width:680px){.hero{background:linear-gradient(155deg,#f4deba 0 38%,#e4987d 38% 70%,#e6954b 70%)}.hero h1{font-size:clamp(51px,14vw,68px)}.wordmark{font-size:24px}.product-card{padding:5px;border-radius:14px}.product-name{font-size:15px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
+/* Funky type system: hand-lettered display faces and an easy-reading UI face */
+:root{--sans:'Nunito',Arial,sans-serif;--serif:'Concert One',sans-serif;--brand-display:'Ribeye Marrow',cursive;--brand-script:'Chewy',cursive}
+body,button,input,select,textarea{font-family:'Nunito',Arial,sans-serif}
+.wordmark{font-family:'Ribeye Marrow',cursive;font-size:31px;font-weight:400;letter-spacing:.01em;line-height:.9;text-transform:lowercase;transform:rotate(-3deg);text-shadow:2px 2px 0 var(--rose),4px 4px 0 var(--orange)}
+.wordmark span{font-family:'Chewy',cursive;font-size:1.15em;font-weight:400;letter-spacing:.005em;color:var(--rust);transform:rotate(3deg);text-shadow:1px 2px 0 var(--cream)}
+.wordmark i{font-family:'Nunito',sans-serif;font-weight:900}
+.hero h1,.section-heading h2,.seller-copy h2,.patchwork-copy h2,.newsletter h2,.checkout-route h1,.checkout-route h2{font-family:'Concert One',sans-serif;font-weight:400;letter-spacing:.005em;line-height:.98}
+.hero h1{font-size:clamp(58px,7.5vw,104px);text-shadow:2px 2px 0 var(--cream)}
+.hero h1 em,.section-heading h2 em,.patchwork-copy h2 em{font-family:'Chewy',cursive;font-weight:400;letter-spacing:0}
+.eyebrow,.button,.main-nav,.category-chip,.product-badge,.vendor-mark,.service-card h3{font-family:'Nunito',sans-serif;font-weight:900}
+.category-card span,.product-name{font-family:'Concert One',sans-serif;font-weight:400;letter-spacing:.01em}
+.newsletter h2{font-size:clamp(40px,5.6vw,72px)}
+@media(max-width:680px){.wordmark{font-size:26px}.hero h1{font-size:clamp(53px,14vw,73px)}}
+/* Keep the playful wordmark level and on one line. */
+.wordmark{transform:none!important;white-space:nowrap;display:block;line-height:1;}
+.wordmark span{transform:none!important;vertical-align:baseline;}
+.wordmark i{transform:none!important;vertical-align:middle;}
+.wordmark small{transform:none!important;}
+/* Angular, non-rounded typography system */
+:root{--sans:'Barlow Condensed','Arial Narrow',sans-serif;--serif:'Bungee',Impact,sans-serif;--brand-display:'Bungee Shade',Impact,sans-serif;--brand-script:'Bungee',Impact,sans-serif}
+body,button,input,select,textarea{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:500}
+.wordmark{font-family:'Bungee Shade',Impact,sans-serif;font-size:26px;font-weight:400;letter-spacing:.005em;text-transform:lowercase;transform:none!important;white-space:nowrap;line-height:1}
+.wordmark span{font-family:'Bungee',Impact,sans-serif;font-weight:400;font-size:.94em;letter-spacing:.01em;color:var(--rust);transform:none!important;vertical-align:baseline;text-shadow:1px 2px 0 var(--cream)}
+.wordmark i{font-family:'Barlow Condensed',sans-serif;transform:none!important;vertical-align:middle}
+.wordmark small{font-family:'Barlow Condensed',sans-serif;font-weight:800;letter-spacing:.24em;transform:none!important}
+.hero h1,.section-heading h2,.seller-copy h2,.patchwork-copy h2,.newsletter h2,.checkout-route h1,.checkout-route h2{font-family:'Bungee',Impact,sans-serif;font-weight:400;letter-spacing:.005em;line-height:1.08}
+.hero h1 em,.section-heading h2 em,.patchwork-copy h2 em{font-family:'Bungee Shade',Impact,sans-serif;font-style:normal;font-weight:400;letter-spacing:0}
+.eyebrow,.button,.main-nav,.category-chip,.product-badge,.vendor-mark,.service-card h3{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-weight:800;letter-spacing:.045em}
+.category-card span,.product-name{font-family:'Bungee',Impact,sans-serif;font-weight:400;letter-spacing:0;line-height:1.15}
+@media(max-width:680px){.wordmark{font-size:22px}.hero h1{font-size:clamp(48px,13vw,66px)}.category-card span,.product-name{font-size:14px}}
+/* Flat finish: remove decorative drop shadows throughout the storefront. */
+*,*::before,*::after{text-shadow:none!important;box-shadow:none!important;filter:none!important}
+.wordmark,.wordmark span,.hero h1,.hero h1 em,.section-heading h2 em,.patchwork-copy h2 em,.hero-image,.hero-sticker,.hero-caption,.category-card span,.category-card:hover,.product-card,.product-badge,.seller-stamp,.patchwork-label,.newsletter form .button,.button-dark,.button-primary,.checkout-route button[type=submit]{text-shadow:none!important;box-shadow:none!important;filter:none!important}
+/* Fix the overlapping brown lettering in the hero sticker. */
+.hero-sticker{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:3px;text-align:center;color:var(--ink);overflow:hidden}
+.hero-sticker span{position:static!important;inset:auto!important;display:block;color:var(--ink)!important;font-size:clamp(9px,1vw,13px)!important;line-height:1.05;font-weight:900}
+.hero-sticker b{display:block;color:var(--ink)!important;font-size:clamp(8px,.8vw,11px)!important;line-height:1.05}
+/* Category card captions need strong contrast over the pale pill. */
+.category-card span{color:var(--ink)!important;font-family:'Barlow Condensed','Arial Narrow',sans-serif!important;font-size:clamp(16px,1.6vw,20px)!important;font-weight:800!important;letter-spacing:.035em;line-height:1.05;white-space:nowrap;text-transform:uppercase;text-shadow:none!important}
+.category-card span b{color:var(--rust)!important;font-family:'Barlow Condensed','Arial Narrow',sans-serif!important;font-size:1em!important;font-weight:900!important}
+@media(max-width:680px){.category-card span{font-size:clamp(14px,3.5vw,17px)!important;padding:8px 11px}}
